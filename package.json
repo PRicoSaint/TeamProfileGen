@@ -1,0 +1,29 @@
+{
+  "name": "teamprofilegen",
+  "version": "1.0.0",
+  "description": "Needed to run this team profile generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRicoSaint/TeamProfileGen.git"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "Esteban Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PRicoSaint/TeamProfileGen/issues"
+  },
+  "homepage": "https://github.com/PRicoSaint/TeamProfileGen#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.6"
+  }
+}
