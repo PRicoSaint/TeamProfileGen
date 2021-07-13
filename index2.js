@@ -1,5 +1,6 @@
 let inquirer = require('inquirer');
 const fs = require('fs');
+const Employee = require("./lib/Employee");
 let team = [];
 inquirer.prompt([
     {
@@ -203,8 +204,22 @@ inquirer.prompt([
     let card = [];
     for (i=1; i> team.length; i++){
         let teamMember = team[i];
+        console.log(teamMember);
         let teamMemberInfo = require(`./${teamMember}.json`);
-        card = createEmployeeCard(teamMemberInfo);
+        console.log(teamMemberInfo);
+        card = ` 
+        <div class="card" style="width: 18rem;">
+        <div class="card-header ">
+            <p>${teamMemberInfo.name}</p>
+            <p>👓 Engineer</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">ID: ${teamMemberInfo.id}</li>
+            <li class="list-group-item">Email: <a href="${teamMemberInfo.email}">${teamMemberInfo.email}</a></li>
+            <li class="list-group-item">Github: <a href="https://github.com/${teamMemberInfo.github}" target="_blank">${teamMemberInfo.github}</a></li>
+        </ul>
+    </div>`
+
     }
     const html = `
     <!doctype html>
