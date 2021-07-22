@@ -209,7 +209,7 @@ inquirer.prompt([
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${team.id}</li>
-            <li class="list-group-item">Email: <a href="${team.email}">${team.email}</a></li>
+            <li class="list-group-item">Email: <a href="mailto:${team.email}">${team.email}</a></li>
             <li class="list-group-item">Github: <a href="https://github.com/${team.github}" target="_blank">${team.github}</a></li>
         </ul>
     </div>`
@@ -224,7 +224,7 @@ inquirer.prompt([
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${team.id}</li>
-                <li class="list-group-item">Email: <a href="${team.email}">${team.email}</a></li>
+                <li class="list-group-item">Email: <a href="mailto:${team.email}">${team.email}</a></li>
                 <li class="list-group-item">School: ${team.school}</li>
             </ul>
         </div>`
