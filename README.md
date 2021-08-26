@@ -3,7 +3,7 @@
 
   ## Description:
 
-    This project will take user input, through the command line, and create a Team Profile Web page. The user add any number of engineers and/or interns. The program will then create cards according to the user input and output it onto a html file. This will be an easy reference for any manager to see employee id, github, name and role. You can also click on the email and directly open the default email app to send the team member an email. When clicking the github link, a new tab or page will open, allowing easy return to team profile page.
+This project will take user input, through the command line, and create a Team Profile Web page. The user add any number of engineers and/or interns. The program will then create cards according to the user input and output it onto a html file. This will be an easy reference for any manager to see employee id, github, name and role. You can also click on the email and directly open the default email app to send the team member an email. When clicking the github link, a new tab or page will open, allowing easy return to team profile page.
 
   ## Table of Contents:
   * [Description](#Description)
@@ -48,10 +48,7 @@
     you can run a couple of test under npm test
 
   ## Website:
-  Github Repository: https://github.com/TeamProfileGen/Team Profile Generator
-
-  Deployed Site here: 
-  https://TeamProfileGen.github.io/Team Profile Generator/
+  Github Repository: https://github.com/PRicoSaint/TeamProfileGen
 
   Screenshot:
   ![Shows basic functionality](./TeamProfileGen.gif)
